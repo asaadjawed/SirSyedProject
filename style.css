@@ -1,0 +1,111 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header{
+    background:linear-gradient(0deg, rgba(49, 48, 49, 0.3), rgba(34, 31, 33, 0.3)), url(header.jpg);
+   height: 650px;
+   background-position: center;
+   background-size: cover;
+   margin-top: -100px;
+   padding-top: 150px;
+
+
+}
+
+.nav-item{
+    padding: 0 10px;
+    
+   
+}
+
+.nav-link{
+    color: white !important;
+}
+.active{
+    background-color: green;
+    color: white !important;
+    
+}
+.active > a{
+    color: white  !important;
+}
+
+#welcomeHeading{
+    color:white;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    font-size: 95px;
+}
+
+#startingPara{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+
+
+#firstForm{
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    
+  
+}
+
+
+.searchDivs{
+    width: 100%;
+    border-left: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+
+
+.inputs
+{
+    width: 90%;
+    font-size: 24px;
+    border: none;
+    background-color:white;
+    outline: none;
+    height: 60px;
+}
+
+#search-btn
+{
+    background-color: transparent;
+    color: white;
+    padding: 0 15px;
+    border: none;
+}
+
+.productCategories{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card-body{
+    text-align: center;
+    font-size: 60px;
+}
+
+
+
+.card:hover
+{
+background-color:green;
+transition: 2s;
+}
